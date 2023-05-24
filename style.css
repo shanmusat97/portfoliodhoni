@@ -1,0 +1,846 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+img{
+    width:200px;
+    height: 100px;
+    border-radius: 30px;
+    border: 2px solid green;
+    margin-top: 20px;
+}
+
+.content .title
+{
+    
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-color: #fd4766;
+    border: 3px;
+    font-size: 60px;
+    background-color: aqua;
+    margin-left:200px;
+}
+.content h1
+{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+    margin-left: 200px;
+}
+.para
+{font-size: 40px;
+    color: seashell;
+    margin-top: 25px;
+    margin-bottom: 30px;
+margin-left: 250px;
+}
+
+nav ul li
+{font-size: 20px;
+    display: inline-block;
+    list-style: none;
+    padding:10px 20px;
+    margin-top: 50px;
+}
+nav ul li a{
+    color: #fff;
+    position: relative;
+    padding:5px 0;
+}
+nav ul li a:hover 
+{
+    color: #fd4766;
+}
+span{
+    color:#fd4766;
+    font-size: 70px;
+}
+.hero
+{background-image: url(Dhoni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.divi
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+ margin-bottom: 150px;   
+}
+h1{
+    font-size: 40px;
+    color: #fd4766;
+}
+h4{
+    font-size: 25px;
+    color: rebeccapurple;
+}
+h3
+{
+    font-size: 20px;
+    color: orange;
+}
+table,th,tr,td
+{
+    border: 1px solid black;
+    margin-top: 20px;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+.inter
+{
+    display:flex;
+}
+
+table
+{
+    background-color: palevioletred;
+}
+.inter ul li
+{
+    font-size: 14px;
+    padding: 10px;   
+}
+.achi
+{
+    display: flex;
+}
+.achi ul li
+{
+    font-size: 14px;
+    padding: 12px;
+}
+.int{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.test img
+{
+    width:300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 2px solid green;
+}
+.od img 
+{
+    width:300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 2px solid green;
+    
+}
+.t2 img
+{
+
+    width:300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 2px solid green;
+}
+.ir,.nh{
+    background-color: wheat;
+}
+
+.odi,.sh
+{
+    background-color: cornflowerblue;
+}
+.t20,.oh
+{
+background-color: gold;
+}
+#Home{
+width: 100%;
+height: 500px;
+display:flex ;
+background-color: #111818;
+}
+.poem-left{
+    /* border: 1px solid red; */
+    height: 490px;
+    width: 50%;
+    background-image: url(trophy.jfif);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: center;
+    background-size: 350px;
+
+}
+.poem-right{
+    width: 50%;
+    height: 490px;
+    /* border: 1px solid red; */
+    padding: 40px;
+}
+#Media{
+    width: 100%;
+    height: 600px;
+    display:flex ;
+    background-color: #111818;
+    }
+    .po-left{
+        /* border: 1px solid red; */
+        height: 400px;
+        width: 40%;
+        background-image: url(movie.jfif);
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+        background-position: center;
+        background-size: 550px;
+    
+    }
+    .po-right{
+        width: 60%;
+        height: 590px;
+        /* border: 1px solid red; */
+        padding: 40px;
+    }
+    #About{
+        width: 100%;
+        height: 500px;
+        display:flex ;
+        background-color: #111818;
+        }
+        .abo-left{
+            /* border: 1px solid red; */
+
+            height: 490px;
+            width: 40%;
+            background-image: url(child.jfif);
+            background-repeat: no-repeat;
+            /* background-size: contain; */
+            background-size: cover;
+        
+        }
+        .abo-right{
+            width: 60%;
+            height: 490px;
+            /* border: 1px solid red; */
+            padding: 20px;
+        }
+    
+.tab{
+    width: 100%;
+    height: 800px;
+    display:flex ;
+    background-color: #111818;
+    }
+    .icc-right{
+        /* border: 1px solid red; */
+        height: 790px;
+        width: 35%;
+        background-image: url(images/ms.jfif);
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+        background-position: center;
+        background-size: 500px;
+    
+    }
+    .icc-left{
+        width: 65%;
+        height: 790px;
+        /* border: 1px solid red; */
+        padding: 10px;
+    }
+
+.contain{
+    display: flex;
+    animation: scroll 100s linear infinite;
+    gap: 10px;
+    justify-content: space-evenly; 
+}
+
+.cars{
+    background-color: #1f1f25;
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.car1{
+    background-image: url(images/nation.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.car2{
+    background-image: url(images/mili.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.car3{
+    background-image: url(images/award.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.car4{
+    background-image: url(images/test.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.car5{
+    background-image: url(images/worldcup.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+.car6{
+    background-image: url(images/tr.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+.car7{
+    background-image: url(trophies.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+
+#Home,#ICC,#Achievements,#About,#Portfolio,#Media
+{
+    background-color: #111818;
+    width: 100%;
+    height:auto;
+}
+
+.btn-1
+{
+    background-color: #111818;
+    color: white;
+    margin-left: 600px;
+}
+.btn-1:hover
+{
+    background-color:rgb(22, 217, 252);
+    color:black;
+}
+.container{
+    display: flex;
+    animation: scroll 100s linear infinite;
+    gap: 10px;
+    justify-content: space-evenly; 
+}
+
+.cards{
+    background-color: #1f1f25;
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.card1{
+    background-image: url(1.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: url(2.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3{
+    background-image: url(7.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card4{
+    background-image: url(4.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card5{
+    background-image: url(5.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+.card6{
+    background-image: url(dh.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+.card7{
+    background-image: url(test.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+.card8{
+    background-image: url(images/msd3.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+.card9{
+    background-image: url(ipl.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+.card10{
+    background-image: url(images/msd8.jfif);
+    background-size: cover;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*5));
+    }
+}
+@media all and (max-width:550px )
+{
+    *
+    {
+        padding: 0;
+        margin: 0;
+        font-size: 8px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+    html
+    {
+        scroll-behavior: smooth;
+    }
+    img{
+        width:80px;
+        height: 80px;
+        /*border-radius: 10px;
+        border: 2px solid green;
+        margin-top: 20px;*/
+    }
+    
+    .content .title
+    {
+        
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+        border-color: #fd4766;
+        border: 1.5px;
+        font-size: 30px;
+        background-color: aqua;
+        margin-left:50px;
+    }
+    .content h1
+    {
+        color: #1f1f25;
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 30px;
+        text-transform: inherit;
+        width: 70%;
+        margin-left: 50px;
+    }
+    .para
+    {font-size: 12px;
+        color: seashell;
+        margin-top: 7px;
+        margin-bottom: 12px;
+    margin-left: 70px;
+    }
+    
+    nav ul li
+    {font-size: 8px;
+        display: inline-block;
+        list-style: none;
+        padding:4px 5px;
+        margin-top: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+        position: relative;
+        padding:1px 0;
+    }
+    nav ul li a:hover 
+    {
+        color: #fd4766;
+    }
+    span{
+        color:#fd4766;
+        font-size: 16px;
+    }
+    .hero
+    {background-image: url(Dhoni.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        
+    }
+    .divi
+    {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+     margin-bottom: 40px;   
+    }
+    h1{
+        font-size: 20px;
+        color: #fd4766;
+    }
+    h4{
+        font-size: 14px;
+        color: rebeccapurple;
+    }
+    h3
+    {
+        font-size: 18px;
+        color: orange;
+    }
+    table,th,tr,td
+    {
+        border: 1px solid black;
+        margin-top: 7px;
+        border-collapse: collapse;
+        padding: 4px 5px;
+    }
+    .inter
+    {
+        display:flex;
+        flex-direction: row;
+    }
+    
+    table
+    {
+        background-color: palevioletred;
+    }
+    .inter ul li
+    {
+        font-size: 8px;
+        padding: 4px;   
+    }
+    .achi
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .achi ul li
+    {
+        font-size: 8px;
+        padding: 3px;
+    }
+    .int{
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+    }
+    .test img
+    {
+        width:100px;
+        height: 100px;
+        border-radius: 30px;
+        border: 2px solid green;
+    }
+    .od img 
+    {
+        width:100px;
+        height: 100px;
+        border-radius: 30px;
+        border: 2px solid green;
+        
+    }
+    .t2 img
+    {
+    
+        width:100px;
+        height: 100px;
+        border-radius: 30px;
+        border: 2px solid green;
+    }
+    .ir,.nh{
+        background-color: wheat;
+    }
+    
+    .odi,.sh
+    {
+        background-color: cornflowerblue;
+    }
+    .t20,.oh
+    {
+    background-color: gold;
+    }
+    #Home{
+        font-size: 14px;
+    width: 100%;
+    height: 300px;
+    display:flex ;
+    background-color: #111818;
+    }
+    .poem-left{
+        /* border: 1px solid red; */
+        height: 250px;
+        width: 50%;
+        background-image: url(trophy.jfif);
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .poem-right{
+        width: 50%;
+        height: 290px;
+        /* border: 1px solid red; */
+        padding: 8px;
+    }
+    #Media{
+        font-size: 12px;
+        width: 100%;
+        height: 350px;
+        display:flex ;
+        background-color: #111818;
+        }
+        .po-left{
+            /* border: 1px solid red; */
+            height: 200px;
+            width: 50%;
+            background-image: url(movie.jfif);
+            background-repeat: no-repeat;
+            /* background-size: contain; */
+            background-position: center;
+            background-size: cover;
+        
+        }
+        .po-right{
+            width: 50%;
+            height: 340px;
+            /* border: 1px solid red; */
+            padding: 8px;
+        }
+        #About{
+            font-size: 8px;
+            width: 100%;
+            height: 700px;
+            display:flex ;
+            background-color: #111818;
+            }
+            .abo-left{
+                /* border: 1px solid red; */
+    
+                height: 250px;
+                width: 40%;
+                background-image: url(child.jfif);
+                background-repeat: no-repeat;
+                /* background-size: contain; */
+                background-size: cover;
+            
+            }
+            .abo-right{
+                width: 60%;
+                height: 690px;
+                /* border: 1px solid red; */
+                padding: 4px;
+            }
+        
+    .tab{
+        font-size: 8px;
+        width: 100%;
+        height: 800px;
+        display:flex ;
+        background-color: #111818;
+        }
+        .icc-right{
+            /* border: 1px solid red; */
+            height: 300px;
+            width: 35%;
+            background-image: url(images/ms.jfif);
+            background-repeat: no-repeat;
+            /* background-size: contain; */
+            background-position: center;
+            background-size: 500px;
+        
+        }
+        .icc-left{
+            width: 65%;
+            height: 790px;
+            /* border: 1px solid red; */
+            padding: 10px;
+        }
+    
+    .contain{
+        display: flex;
+        animation: scroll 100s linear infinite;
+        gap: 5px;
+        justify-content: space-evenly; 
+    }
+    
+    .cars{
+        background-color: #1f1f25;
+        border-radius: 10px;
+        height: 60px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        /* border: 1px solid red; */
+    }
+    .car1{
+        background-image: url(images/nation.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .car2{
+        background-image: url(images/mili.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .car3{
+        background-image: url(images/award.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .car4{
+        background-image: url(images/test.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .car5{
+        background-image: url(images/worldcup.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    .car6{
+        background-image: url(images/tr.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    .car7{
+        background-image: url(trophies.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    
+    #Home,#ICC,#Achievements,#About,#Portfolio,#Media
+    {
+        background-color: #111818;
+        width: 100%;
+        height:auto;
+    }
+    
+    .btn-1
+    {
+        background-color: #111818;
+        color: white;
+        margin-left: 200px;
+    }
+    .btn-1:hover
+    {
+        background-color:rgb(22, 217, 252);
+        color:black;
+    }
+    .container{
+        display: flex;
+        animation: scroll 100s linear infinite;
+        gap: 5px;
+        justify-content: space-evenly; 
+    }
+    
+    .cards{
+        background-color: #1f1f25;
+        border-radius: 10px;
+        height: 60px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        /* border: 1px solid red; */
+    }
+    .card1{
+        background-image: url(1.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card2{
+        background-image: url(2.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card3{
+        background-image: url(7.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card4{
+        background-image: url(4.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card5{
+        background-image: url(5.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    .card6{
+        background-image: url(dh.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    .card7{
+        background-image: url(test.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    .card8{
+        background-image: url(images/msd3.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    .card9{
+        background-image: url(ipl.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    .card10{
+        background-image: url(images/msd8.jfif);
+        background-size: cover;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+    }
+    @keyframes scroll{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px*5));
+        }
+    }
+    
+}
